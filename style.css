@@ -19,8 +19,7 @@ h1, p {
   max-width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 10% 80% 10%;
+  grid-template-rows: 20% 70% 10%;
   grid-gap: 10px;
 }
 
@@ -32,15 +31,16 @@ h1, p {
   font-size: 150%;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
+li {
+  display: inline;
+  padding: 0.5em;
+}
 nav {
-  list-style: none;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
+  text-align: center;
 }
