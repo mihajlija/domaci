@@ -32,7 +32,7 @@ CSS styles for the signup form
 
 ### ← contact.html
 
-This is not contact page. Rename this page to "Memes", and remember to change the link in the menu on each page.
+"Say Hi" sends an email, page displays the current date from JS and a random meme.
 
 ### ← script.js
 
