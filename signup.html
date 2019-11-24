@@ -7,13 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/signup.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/signup.css" />
 
-    <!-- import the webpage's javascript file -->
-
-
-   <script src="/script.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
@@ -31,41 +27,40 @@
         <h1 id="title">Tell us about your dog</h1>
         <form id="survey-form">
             <div class="question">
-              <label id="name-label" for="name">Name*</label>
+              <label id="name-label" for="name">Your name*</label>
               <input autofocus id="name" type="text" placeholder="Doggo" required></input>
             </div>
             <div class="question">
-              <label id="email-label" for="email">Email*</label>
-              <input id="email" type="email" placeholder="youremail@cicko.com" required></input>
+              <label id="email-label" for="email">Your email*</label>
+              <input id="email" type="email" placeholder="youremail@email.com" required></input>
             </div>
             <div class="question">
-              <label id="number-label" for="number">Number</label>
+              <label id="number-label" for="number">Number of days?</label>
               <input id="number" type="number" min=1 max=10 placeholder="placeholder"></input>
             </div>
             <div class="question">
-              <label for="dropdown" id="dropdown-label">Dropdown</label>
+              <label for="dropdown" id="dropdown-label">How old is your dog?</label>
               <select id="dropdown" placeholder="placeholder">
-          <option value="">1</option>
-          <option value="">2</option>
-          <option value="">3</option>
+          <option value="Puppy">Puppy</option>
+          <option value="Big doggo">Big doggo</option>
+          <option value="Old doggo">Old doggo</option>
         </select>
             </div>
             <div class="question">
-              <label for="radio" id="radio-label">Radio</label>
+              <label for="radio" id="radio-label">Does your dog need grooming?</label>
               <div class="radio">
-                <input type="radio" name="radio" value="1" id="radio1">1</input>
-                <input type="radio" name="radio" value="2" id="radio2">2</input>
+                <input type="radio" name="radio" value="1" id="radio1">Yes</input>
+                <input type="radio" name="radio" value="2" id="radio2">No</input>
               </div>
             </div>
             <div class="question">
-              <label for="checkbox" id="checkbox-label">Check one</label>
+              <label for="checkbox" id="checkbox-label">Would you like to recieve our newsletter?</label>
               <div class="checkbox">
-                <input type="checkbox" name="checkbox" value="1" id="checkbox1">1342</input>
-                <input type="checkbox" name="checkbox" value="1" id="checkbox1">1</input>
+                <input type="checkbox" name="checkbox" value="1" id="checkbox1">Yes</input>
               </div>
             </div>
             <div class="question">
-              <label for="textarea" class="">Questions</label>
+              <label for="textarea" class="">Anything to add?</label>
               <textarea class="textarea" id="textarea"></textarea>
             </div>
             <button type="submit" id="submit">Submit</submit>
