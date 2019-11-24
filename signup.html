@@ -66,15 +66,19 @@
             <button type="submit" id="submit">Submit</submit>
         </form>
       </article>
-      <footer class="footer"><small>Copyright 2019</small></footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
     <script>
         $("form").validate();
         function myFunction() {
-          window.alert("The form was submitted");
+          if ($("form").valid()){
+          window.alert("The form is submitted.");
         }
+        else {
+          window.alert("Please check if you've correctly filled the form.");
+        }
+      }
     </script>
   </body>
 </html>

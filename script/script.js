@@ -1,5 +1,8 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+let today = new Date();
+let date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear()+'.';
 
-// prints "hi" in the browser's dev tools console
-console.log("hi");
+document.getElementById("date").innerHTML = date;
+
+let random = Math.ceil(Math.random() * 3); 
+
+document.getElementById("meme").src = "images/memes/"+random+".jpg";

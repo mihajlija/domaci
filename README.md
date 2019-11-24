@@ -1,13 +1,3 @@
-Welcome to Glitch
-=================
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-
 Your Project
 ------------
 
@@ -23,15 +13,32 @@ Where you'll write the content of your website.
 
 CSS files add styling rules to your content.
 
+### ← images
+
+images/guests has images and thumbnails for the gallery.
+images/memes has memes for the random meme generator
+
+### ← guests.html
+
+Uses jQuery gallery plugin. The big image goes in href, the thumbnail goes in src.
+
+### ← signup.html
+
+Signup form with HTML validation on each field and jQuery form validator included in the script at the bottom. If the form is valid, window alert display success message, if it's invalid it displays a warning.
+
+### ← signup.css
+
+CSS styles for the signup form
+
+### ← contact.html
+
+This is not contact page. Rename this page to "Memes", and remember to change the link in the menu on each page.
+
 ### ← script.js
 
-If you're feeling fancy you can add interactivity to your site with JavaScript.
+Displays current date and a random meme from images/memes on Contact page.
 
-### ← assets
 
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
 -------------------
 
 \ ゜o゜)ノ
