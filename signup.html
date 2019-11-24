@@ -8,6 +8,7 @@
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/signup.css" />
 
     <!-- import the webpage's javascript file -->
 
@@ -27,54 +28,55 @@
         </nav>
       </header>
       <article class="content">
-<form id="survey-form">
-    <div class="question">
-      <label id="name-label" for="name">Name*</label>
-      <input autofocus id="name" type="text" placeholder="Micak" required></input>
-    </div>
-    <div class="question">
-      <label id="email-label" for="email">Email*</label>
-      <input id="email" type="email" placeholder="micko@cicko.com" required></input>
-    </div>
-    <div class="question">
-      <label id="number-label" for="number">Number</label>
-      <input id="number" type="number" min=1 max=10 placeholder="placeholder"></input>
-    </div>
-    <div class="question">
-      <label for="dropdown" id="dropdown-label">Dropdown</label>
-      <select id="dropdown" placeholder="placeholder">
-  <option value="">1</option>
-  <option value="">2</option>
-  <option value="">3</option>
-</select>
-    </div>
-    <div class="question">
-      <label for="radio" id="radio-label">Radio</label>
-      <div class="radio">
-        <input type="radio" name="radio" value="1" id="radio1">1</input>
-        <input type="radio" name="radio" value="2" id="radio2">2</input>
-      </div>
-    </div>
-    <div class="question">
-      <label for="checkbox" id="checkbox-label">Check one</label>
-      <div class="checkbox">
-        <input type="checkbox" name="checkbox" value="1" id="checkbox1">1342</input>
-        <input type="checkbox" name="checkbox" value="1" id="checkbox1">1</input>
-      </div>
-    </div>
-    <div class="question">
-      <label for="textarea" class="">Questions</label>
-      <textarea class="textarea" id="textarea"></textarea>
-    </div>
-    <button type="submit" id="submit">Submit</submit>
-</form>
+        <h1 id="title">Tell us about your dog</h1>
+        <form id="survey-form">
+            <div class="question">
+              <label id="name-label" for="name">Name*</label>
+              <input autofocus id="name" type="text" placeholder="Doggo" required></input>
+            </div>
+            <div class="question">
+              <label id="email-label" for="email">Email*</label>
+              <input id="email" type="email" placeholder="youremail@cicko.com" required></input>
+            </div>
+            <div class="question">
+              <label id="number-label" for="number">Number</label>
+              <input id="number" type="number" min=1 max=10 placeholder="placeholder"></input>
+            </div>
+            <div class="question">
+              <label for="dropdown" id="dropdown-label">Dropdown</label>
+              <select id="dropdown" placeholder="placeholder">
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+        </select>
+            </div>
+            <div class="question">
+              <label for="radio" id="radio-label">Radio</label>
+              <div class="radio">
+                <input type="radio" name="radio" value="1" id="radio1">1</input>
+                <input type="radio" name="radio" value="2" id="radio2">2</input>
+              </div>
+            </div>
+            <div class="question">
+              <label for="checkbox" id="checkbox-label">Check one</label>
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" value="1" id="checkbox1">1342</input>
+                <input type="checkbox" name="checkbox" value="1" id="checkbox1">1</input>
+              </div>
+            </div>
+            <div class="question">
+              <label for="textarea" class="">Questions</label>
+              <textarea class="textarea" id="textarea"></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</submit>
+        </form>
       </article>
       <footer class="footer"><small>Copyright 2019</small></footer>
     </div>
-<script src="jquery.js"></script>
-<script src="jquery.validate.js"></script>
-<script>
-    $("form").validate();
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+    <script>
+        $("form").validate();
+    </script>
   </body>
 </html>
