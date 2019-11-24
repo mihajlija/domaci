@@ -30,6 +30,17 @@ h1, p {
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
-  /* needed for the floated layout*/
-  margin-bottom: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+nav {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
 }
