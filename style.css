@@ -7,7 +7,6 @@
 body {
   font-family: 'Open Sans', 'sans-serif';
   background-color: #fff;
-  color: #444;
 }
 
 h1, p {
@@ -24,8 +23,7 @@ h1, p {
 }
 
 .wrapper > * {
-  background-color: #444;
-  color: #fff;
+  color: black;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
@@ -41,6 +39,15 @@ li {
   display: inline;
   padding: 0.5em;
 }
+
+li.a {
+  text-decoration: none;
+}
+
 nav {
+  text-align: center;
+}
+
+footer {
   text-align: center;
 }
